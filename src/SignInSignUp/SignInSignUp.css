@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    background-color: #eee;
+    padding: 20px;
+}
+.container h1 {
+    margin-top: 0;
+}
+.container p {
+    margin: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input_space{
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+input{
+    height: 40px;
+    width: 96%;
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: left;
+    display: block;
+    border: 1px solid #ddd;
+}
+.input_space label {
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+button{
+    height: 42px;
+    background-color: #1aafcf;
+    border-radius: 3px;
+    color: #fff;
+    border-color: #1aafcf;
+    margin: 10px 10px 0 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container .button-box {
+    display: flex;
+}
+.logout{
+    margin-right: 15px;
+    color: white;
+    width: 50%;
+}
+.delete{
+        color: white;
+        background-color: rgb(217 27 27);
+        width: 50%;
+        margin: 10px 0 0 0;
+}
